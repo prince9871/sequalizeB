@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "basic-upload-test",
-    "builds": [{ "src": "src/index.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/src/index.js" }]
+    "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/" }]
   }
   
